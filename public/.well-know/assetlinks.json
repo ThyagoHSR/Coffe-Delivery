@@ -1,0 +1,26 @@
+
+
+[
+      {
+        "relation": [
+          "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+          "namespace": "android_app",
+          "package_name": "app.vercel.coffee_delivery_ivory.twa",
+          "sha256_cert_fingerprints": [
+            "E4:51:8B:A3:71:81:E3:E8:9E:B5:40:2F:58:DA:12:25:C2:C6:35:AE:31:1E:93:65:E4:9B:D7:16:A0:99:4A:CA"
+          ]
+        }
+      },
+      {
+        "relation": [
+          "check_validation"
+        ],
+        "target": {
+          "namespace": "android_app",
+          "package_name": "app.vercel.coffee_delivery_ivory.twa"
+        }
+      }
+    ]
+    
